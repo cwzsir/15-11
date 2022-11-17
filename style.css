@@ -1,0 +1,40 @@
+.btn {
+    padding: 15px 30px;
+    margin: 15px;
+    border: 0;
+    background-color: darkblue;
+    color: white;
+    font-size: 19px;
+}
+
+.notification {
+    width: 700px;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 350px);
+    border-radius: 0.375rem;
+}
+
+.notification-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+.notification-secondary {
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+}
+
+.notification-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.d-none {
+    display: none;
+}
